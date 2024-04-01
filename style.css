@@ -1,0 +1,83 @@
+body{
+    background-size: cover;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://preview.redd.it/how-can-someone-make-this-background-with-html-and-css-i-v0-zjgs096khv591.jpg?auto=webp&s=9659527da9196c27a8875200b41d20a8e901c341);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.logo img{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #fff;
+    margin: 5%;
+    text-align: left;
+}
+.container {
+    max-width: 300px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.844);
+    height: 450px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #5555554f;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+button {
+    width: 86%;
+    padding: 12px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 86%;
+    padding: 12px;
+    background-color: rgb(84, 84, 84);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.op{
+    color: #fff;
+    display: flex;
+    margin-left: 40%;
+}
+.container a{
+    color: #fff;
+    display: flex;
+    margin-left: 25%; 
+}
+
+.footer{
+    color: #fff;
+    text-align: left;
+}
+
+.footer a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
